@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    background-image: url('images/index_background.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+}
+#container {
+    width: 70vw;
+    /* margin-top: 20px; */
+    height: 60vh;
+    backdrop-filter: blur(8px);
+    box-shadow: inset 0 0 2000px rgba(255, 255, 255, .3);
+    align-content: center;
+    justify-content: center;
+    font-size:28;
+    color: white;
+    font-weight: bold;
+    text-align: justify;
+    padding: 20;
+    border-radius: 10px;
+}
+
+#name
+{
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    font-family:'Delius Unicase', cursive;
+    margin: 20px;
+}
+
+#line
+{
+    background-color: white;
+    width: auto;
+    height: 2px;
+    margin: 10px;
+}
+
+
+#ExitButton {
+    background-color: white;
+    color: black;
+    width: auto;
+    height: auto;
+    font-size: 20;
+    margin: 10px;
+    margin-top: 50px;
+    padding: 10px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-weight: bold;
+    position: fixed;
+    top: 80%;
+    left: 81.5%;
+    cursor: pointer;
+    border-radius: 5px;
+}
+#ExitButton:hover {
+    background-color: black;
+    color: white;
+    border-color: white;
+}
+
+ol{
+    font-family:'Delius Unicase', cursive;
+}
