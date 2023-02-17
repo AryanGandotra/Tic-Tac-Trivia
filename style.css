@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    background-image: url('images/index_background.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+}
+
+.container {
+    width: 40%;
+    margin-top: 60px;
+    height: 500px;
+    backdrop-filter: blur(10px);
+    display: flex;
+    box-shadow: inset 0 0 2000px rgba(255, 255, 255, .3);
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+#name {
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    font-family:'Delius Unicase', cursive;
+    margin: 20px;
+
+}
+
+#start {
+    background-color: white;
+    color: black;
+    width: auto;
+    height: auto;
+    font-size: 20;
+    margin: 10px;
+    margin-top: 50px;
+    padding: 10px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    transition:0.5s;
+}
+
+#start:hover, #settings:hover , #rules:hover {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+
+#settings {
+    background-color: white;
+    color: black;
+    width: auto;
+    height: auto;
+    font-size: 20;
+    margin: 10px;
+    margin-top: 50px;
+    padding: 10px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    transition:0.5s;
+}
+
+#rules {
+    background-color: white;
+    color: black;
+    width: auto;
+    height: auto;
+    font-size: 20;
+    margin: 10px;
+    margin-top: 50px;
+    padding: 10px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    transition:0.5s;
+}
+
+a {
+    color: black;
+}
+
+a:link {
+    text-decoration: none;
+}
