@@ -1,3 +1,3 @@
 # Tic-Tac-Trivia
 
-<img src="start.png">
+<img src="images/start.png">
