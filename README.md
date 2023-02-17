@@ -4,4 +4,4 @@ Tic Tac Toe is a classic game that has been enjoyed for generations, and now it 
 
 <img src="images/start.png">
 <img src="images/game.png">
-<img src="images/rules.png">
+<img src="images/Rules.png">
